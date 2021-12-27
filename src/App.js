@@ -42,7 +42,7 @@ const App = () => {
           type="text"
           value={content}
           className="todo-input"
-          placeholder="Todo Gir"
+          placeholder="Add Todo "
           onChange={(event) => setContent(event.target.value)}
         />
 
