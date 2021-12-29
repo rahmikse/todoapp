@@ -21,7 +21,7 @@ const Todo = ({ todo }) => {
     ["todo-row"]: true,
     ["completed"]: todo.isCompleted,
   });
-  return (
+  return ( 
     <div className={todoCompletedStyle}>
       <div onClick={() => completeTodo(todo.id)}>
         {" "}
@@ -29,7 +29,7 @@ const Todo = ({ todo }) => {
           <li  key={todo.id}>{todo.content}</li>
         
       </div>
-      <div className="todo-icon" onClick={() => removeTodo(todo.id)}>
+      <div className="todo-icon" onClick={() =>  removeTodo(todo.id)}>
         <GrFormClose />
       </div>
     </div>
